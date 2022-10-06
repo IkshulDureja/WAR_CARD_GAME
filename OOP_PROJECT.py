@@ -86,7 +86,7 @@ class Player:
 
     def play_card(self):
         drawn_card = self.hand.remove_card()
-        print("{} has placed: {}".format(self.name,drawn_card))
+        print("{} has placed: {} the card is drawn".format(self.name,drawn_card))
         print("\n")
         return drawn_card
 
